@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, signal } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-
+import {MatTableModule} from '@angular/material/table';
 import { Empleados } from '../../interfaces/empleados.interface'
 
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
@@ -22,6 +22,7 @@ const ELEMENT_DATA: Empleados[] = [
       CommonModule,
       MatProgressSpinnerModule,
       MatButtonModule,
+      MatTableModule,
     ],
     templateUrl: './lista.component.html',
     styleUrl: './lista.component.scss',
