@@ -27,7 +27,7 @@ const ELEMENT_DATA: Empleados[] = [
     templateUrl: './lista.component.html',
     styleUrl: './lista.component.scss',
   })
-  export class TableBasicExample {
+  export class listaEmpleado {
     displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
     dataSource = ELEMENT_DATA;
   }
